@@ -1,2 +1,2 @@
 # Meus projetos
- Projetos com a linguagem de python
+ Projetos com a linguagem python
