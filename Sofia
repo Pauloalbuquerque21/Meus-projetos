@@ -1,18 +1,5 @@
 from time import sleep
 print('Ola amigo, bom dia!!!!')
 sleep(1)
-n1 = str(input('Como posso te ajudar?'))
-n2 = str(input('Nossaaaa, que mal educado, não pode falar nem bom dia?')).strip().lower()
-n3 = ('bom dia')
-p1 = ('sim') or ('s')
-if n2 == n3:
-    n4 = str(input('Agora sim, sua mãe não te deu ajucação não ?\nOk, o que vocÊ quer de mim, já vou te avisando\n se for matemática só sei PA, é essa materia?'))
-    if n4 == p1:
-        n5 = int(input('OK OK, me fala ai a Razão dessa PA?'))
-        n6 = int(input('Agora o primeiro termo?'))
-        n7 = int(input('você vai querer os primeios termos, se sim, quantos'))
-        n8=n6+(10-1)*n5
-        for c in range(n6,n8+n5,n5):
-            print(c)
-else:
-    print('Não vou te ajudar')
+n1 = str(input('Sei Matemátca e Português\n Como posso te ajudar?'))
+
