@@ -1,5 +1,0 @@
-from time import sleep
-print('Ola amigo, bom dia!!!!')
-sleep(1)
-n1 = str(input('Sei Matemátca e Português\n Como posso te ajudar?'))
-
