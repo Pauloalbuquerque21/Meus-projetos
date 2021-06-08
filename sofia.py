@@ -8,6 +8,6 @@ while n1 != 1 and n1!=2:
 if n1 == 1:
     print('=-'*20)
     n3 = int(input('O escolhido foi Matemática.\nCalculadora[1]\nEscolhe uma das opções:'))
-        if n3 == 1:
-            print('=-'*20)
-            n4 = ('[1]Soma\n[2]Multiplicação\n[3]divisão')
+    if n3 == 1:
+        print('=-'*20)
+        n4 = int(input('[1]Soma\n[2]Multiplicação\n[3]divisão'))
