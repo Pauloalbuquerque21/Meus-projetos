@@ -11,3 +11,10 @@ if n1 == 1:
     if n3 == 1:
         print('=-'*20)
         n4 = int(input('[1]Soma\n[2]Multiplicação\n[3]divisão'))
+            if n4 == 1:
+                n5 = int(input('quantos número vaõ ser somados ?'))
+                for c in range(1,n5+1):
+                    n6 = int(input('Número nº {}:'.format(c)))
+                    f=f+c   
+            print('A soma entre os números {} é igual {}'.format(c,f))
+            
