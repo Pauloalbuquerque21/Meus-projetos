@@ -10,11 +10,19 @@ if n1 == 1:
     n3 = int(input('O escolhido foi Matemática.\nCalculadora[1]\nEscolhe uma das opções:'))
     if n3 == 1:
         print('=-'*20)
-        n4 = int(input('[1]Soma\n[2]Multiplicação\n[3]divisão\nEs'))
+        n4 = int(input('[1]Soma\n[2]Multiplicação\n[3]divisão\nEscolha umas das opções:'))
         if n4 == 1:
             n5 = int(input('quantos números vão ser somados ?'))
             f = 0
             for c in range(1,n5+1):
-                n6 = int(input('Número nº {}:'.format(c)))
+                n6 = float(input('Número nº {}:'.format(c)))
                 f= f + n6  
-            print('O resultado da soma é igual: {}'.format(f))
+            print('O resultado da soma é igual: {:.2f}'.format(f))
+        elif n4 == 2:
+            print('-=-'*20)
+            numb=int(input('Quantos números vão ser multiplicados:'))
+            g=1
+            for d in range(1,numb+1):
+                n7 = float(input('Número nª{}:'.format(d)))
+                g=g*n7
+            print('O valor da Multiplicação é {:.2f}'.format(g))    
