@@ -25,4 +25,11 @@ if n1 == 1:
             for d in range(1,numb+1):
                 n7 = float(input('Número nª{}:'.format(d)))
                 g=g*n7
-            print('O valor da Multiplicação é {:.2f}'.format(g))    
+            print('O valor da Multiplicação é {:.2f}'.format(g))
+        elif n4 == 3:
+            print('-=-'*20)
+            n8 = float(input('Informe o Dividendo:'))      
+            n9 = float(input('Informe o divisor:')) 
+            n10 = n8 / n9
+            n11 = n8 % n9
+            print('O resultado da divisão {:.2f} e o resto {:.2f}'.format(n10,n11))
