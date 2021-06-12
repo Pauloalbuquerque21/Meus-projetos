@@ -39,16 +39,28 @@ if n1 == 1:
         print('-=-'*20)
         print('PROGREÇÃO ARITIMÉTICA')
         print('-=-'*20)
-        sleep(2)
+        sleep(1)
         print('Fomula:\nan=a1+(n-1).r')
         print('-=-'*20)
         sleep(2)
-        n12 = str(input('Informações:\nPrimeiro termo a1 opção[A]\nUltimo termo an opção[B]\nRazão n opção[C]\nNúmero de termos n opção[D]\nQuais dessas opções você tem.Não coloca espaço entre as opçãos?')).strip().lower()
+        n12 = str(input('Informações:\nPrimeiro termo (a1) opção[A]\nUltimo termo (an) opção[B]\nRazão (r) opção[C]\nNúmero de termos n opção[D]\nQuais dessas opções você tem.Não coloca espaço entre as opçãos?')).strip().lower()
         n13 = len(n12)
         #print('{}'.format(len(n12)))
-        #if n13 >= 3:
-            #elif  n12 in 'abc':
-                #n14 = int(input('Informe'))
-        
-
+        if n13 >= 3:
+            if  n12 in 'abc' or 'acb' or 'bac' or 'bca' or 'cab' or 'cba':
+                n14 = int(input('Informe o Primeiro termo:'))
+                n15 = int(input('Informe o ultimo termo: '))
+                n16 = int(input('informe a razão:'))
+            elif n12 in 'bcd' or 'bdc' or 'cbd' or 'cdb' or 'dcb' or 'dbc':
+                n15 = int(input('Informe o Ultimo termo:'))
+                n16 = int(input('Informe a razão:'))
+                n17 = int(input('Informe o número de termos:'))
+            elif n12 in 'acd' or 'adc' or 'dac' or 'dca' or 'cad' or 'cda':
+                n18 = int(input('Informe o primeiro termo:'))
+                n19 = int(input('Informe a razão:'))
+                n20 = int(input('Informe o Número de termos:'))
+            elif n12 in 'abd' or 'adb' or 'dab' or 'dba' or 'bad' or 'bda':
+                n21 = int(input('informe o primeiro termo:'))
+                n22 = int(input('Informe o ultimo termo:'))
+                n23 = int(input('Informe o número de termos:'))
                 
