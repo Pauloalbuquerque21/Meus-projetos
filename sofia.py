@@ -40,8 +40,15 @@ if n1 == 1:
         print('PROGREÇÃO ARITIMÉTICA')
         print('-=-'*20)
         sleep(2)
-        print('\033[32mFomula:\nan=a1+(n-1).r\033[m')
+        print('Fomula:\nan=a1+(n-1).r')
         print('-=-'*20)
         sleep(2)
-        n12 = int(input('Informações:\nPrimeiro termo (a1) [1]\nUltimo termo (an) [2]\nRazão (n) [3]\nNúmero de termos (n) [4]\nQuais dessas informações você tem?'))
+        n12 = str(input('Informações:\nPrimeiro termo a1 opção[A]\nUltimo termo an opção[B]\nRazão n opção[C]\nNúmero de termos n opção[D]\nQuais dessas opções você tem.Não coloca espaço entre as opçãos?')).strip().lower()
+        n13 = len(n12)
+        #print('{}'.format(len(n12)))
+        #if n13 >= 3:
+            #elif  n12 in 'abc':
+                #n14 = int(input('Informe'))
+        
+
                 
