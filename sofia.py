@@ -50,7 +50,13 @@ if n1 == 1:
             if  n12 in 'abc' or 'acb' or 'bac' or 'bca' or 'cab' or 'cba':
                 n14 = int(input('Informe o Primeiro termo:'))
                 n15 = int(input('Informe o ultimo termo: '))
-                n16 = int(input('informe a razão:'))
+                n16 = int(input('informe a razão:'))    
+                pa1 = 1+((n15-n14)*n16)
+                perg = str(input('Você quer ver todos os termos[S/N]?')).strip().lower()
+                if perg == 's':
+                    for c in range(n14,n15,n16):
+                        print(c,end='')
+
             elif n12 in 'bcd' or 'bdc' or 'cbd' or 'cdb' or 'dcb' or 'dbc':
                 n15 = int(input('Informe o Ultimo termo:'))
                 n16 = int(input('Informe a razão:'))
