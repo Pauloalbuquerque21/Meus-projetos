@@ -77,10 +77,10 @@ while True:
                 print('-=-'*20)
                 print('GEOMETRIA PLANA')
                 print('-=-'*20)
-                gp1=int('Aprender conceitos básicos[1]\nEscolha uma das opções:')
+                g1=int(input(('Aprender conceitos básicos[1]\nEscolha uma das opções:'))
                 if gp1 == 1:
-                    gp2 =int('Ponto,Retas, planos, semirreta,semento de reta  e plano[1]')
-                    if gp2 == 1:
+                    g2 = int(input('Ponto,Retas, planos, semirreta,semento de reta  e plano[1]'))
+                    if g2 == 1:
                         print('PONTOS:\nSão sempre representados por letras maiúsculas do nosso alfabeto.')
                         sleep(1)
                         print('RETAS\nSão sempre representadas por letras minúsculas do nosso alfabeto.\n OBS: lembre que consideramos as reta infita em ambos os lados, por isso existe os conceitos de Semirreta e segmento de reta.')
@@ -90,6 +90,6 @@ while True:
                         print('SEGUIMENTO DE RETA\nÉ uma reta que é limitada entre dois ponto, ou seja, ela tem início e fim.')
                         sleep(1)
                         print('PLANO\nÉ representada pelas letras do alfabeto grego.\nOBS:Se o plano não tiver suas dimenções definida por um valor escalar entenda que ele seja infinito.')
+                        sleep(2)
     if n1 == 10:
         break
-                    
