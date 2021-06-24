@@ -10,7 +10,7 @@ while True:
         print('=-'*20)
         n3 = 0
         while  n3 !=1 and n3!=2:
-            n3 = int(input('O escolhido foi Matemática.\nCalculadora[1]\nProgreção Aritimetica[2]\nEscolhe uma das opções:'))
+            n3 = int(input('O escolhido foi Matemática.\nCalculadora[1]\nProgreção Aritimetica[2]\nGeometria Plana[3]\nEscolhe uma das opções:'))
             if n3 == 1:
                 print('-=-'*20)
                 print('CALCULADORA')
