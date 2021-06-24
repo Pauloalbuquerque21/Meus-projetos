@@ -9,7 +9,7 @@ while True:
     if n1 == 1:
         print('=-'*20)
         n3 = 0
-        while  n3 !=1 and n3!=2:
+        while  n3 !=1 and n3!=2 and n3!=3:
             n3 = int(input('O escolhido foi Matemática.\nCalculadora[1]\nProgreção Aritimetica[2]\nGeometria Plana[3]\nEscolhe uma das opções:'))
             if n3 == 1:
                 print('-=-'*20)
@@ -73,6 +73,23 @@ while True:
                         n21 = int(input('informe o primeiro termo:'))
                         n22 = int(input('Informe o ultimo termo:'))
                         n23 = int(input('Informe o número de termos:'))
+            elif n3 == 3:
+                print('-=-'*20)
+                print('GEOMETRIA PLANA')
+                print('-=-'*20)
+                gp1=int('Aprender conceitos básicos[1]\nEscolha uma das opções:')
+                if gp1 == 1:
+                    gp2 =int('Ponto,Retas, planos, semirreta,semento de reta  e plano[1]')
+                    if gp2 == 1:
+                        print('PONTOS:\nSão sempre representados por letras maiúsculas do nosso alfabeto.')
+                        sleep(1)
+                        print('RETAS\nSão sempre representadas por letras minúsculas do nosso alfabeto.\n OBS: lembre que consideramos as reta infita em ambos os lados, por isso existe os conceitos de Semirreta e segmento de reta.')
+                        sleep(1)
+                        print('SEMIRRETA\nÉ parte de uma que existe inicio, porem não existe fim')
+                        sleep(1)
+                        print('SEGUIMENTO DE RETA\nÉ uma reta que é limitada entre dois ponto, ou seja, ela tem início e fim.')
+                        sleep(1)
+                        print('PLANO\nÉ representada pelas letras do alfabeto grego.\nOBS:Se o plano não tiver suas dimenções definida por um valor escalar entenda que ele seja infinito.')
     if n1 == 10:
         break
                     
