@@ -77,8 +77,8 @@ while True:
                 print('-=-'*20)
                 print('GEOMETRIA PLANA')
                 print('-=-'*20)
-                g1=int(input(('Aprender conceitos básicos[1]\nEscolha uma das opções:'))
-                if gp1 == 1:
+                g1 = int(input('Aprender conceitos básicos[1]\nEscolha uma das opções:'))
+                if g1 == 1:
                     g2 = int(input('Ponto,Retas, planos, semirreta,semento de reta  e plano[1]'))
                     if g2 == 1:
                         print('PONTOS:\nSão sempre representados por letras maiúsculas do nosso alfabeto.')
