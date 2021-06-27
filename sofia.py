@@ -1,10 +1,10 @@
 from time import sleep
-print('Ola amigo, bom dia!!!!')
+print('Ola amigo, meu nome é Sofia!!!!')
 sleep(1)
 n1 = 0
 n2 = [1,2]
 while True:
-    n1 = int(input('Escolha uma das opções:\nMatemática[1]\nPortuguês[2]\nSair[10]\nQual?'))
+    n1 = int(input('Escolha uma das opções:\nMatemática[1]\nPortuguês[2]\nSair[10]\nQual dessas opções você precisa de ajuda?'))
     sleep(1)
     if n1 == 1:
         print('=-'*20)
@@ -77,19 +77,22 @@ while True:
                 print('-=-'*20)
                 print('GEOMETRIA PLANA')
                 print('-=-'*20)
-                g1 = int(input('Aprender conceitos básicos[1]\nEscolha uma das opções:'))
+                g1 = int(input('Aprender conceitos básicos[1]\nCalcular Área[2]\nEscolha uma das opções:'))
                 if g1 == 1:
-                    g2 = int(input('Ponto,Retas, planos, semirreta,semento de reta  e plano[1]'))
-                    if g2 == 1:
-                        print('PONTOS:\nSão sempre representados por letras maiúsculas do nosso alfabeto.')
-                        sleep(1)
-                        print('RETAS\nSão sempre representadas por letras minúsculas do nosso alfabeto.\n OBS: lembre que consideramos as reta infita em ambos os lados, por isso existe os conceitos de Semirreta e segmento de reta.')
-                        sleep(1)
-                        print('SEMIRRETA\nÉ parte de uma que existe inicio, porem não existe fim')
-                        sleep(1)
-                        print('SEGUIMENTO DE RETA\nÉ uma reta que é limitada entre dois ponto, ou seja, ela tem início e fim.')
-                        sleep(1)
-                        print('PLANO\nÉ representada pelas letras do alfabeto grego.\nOBS:Se o plano não tiver suas dimenções definida por um valor escalar entenda que ele seja infinito.')
-                        sleep(2)
+                    print('-=-'*20)
+                    print('Ponto,Retas, planos, semirreta,semento de reta  e plano[1]')
+                    print('-=-'*20)
+                    sleep(2)
+                    print('PONTOS:\nSão sempre representados por letras maiúsculas do nosso alfabeto.')
+                    sleep(1)
+                    print('RETAS\nSão sempre representadas por letras minúsculas do nosso alfabeto.\n OBS: lembre que consideramos as reta infita em ambos os lados, por isso existe os conceitos de Semirreta e segmento de reta.')
+                    sleep(1)
+                    print('SEMIRRETA\nÉ parte de uma que existe inicio, porem não existe fim')
+                    sleep(1)
+                    print('SEGUIMENTO DE RETA\nÉ uma reta que é limitada entre dois ponto, ou seja, ela tem início e fim.')
+                    sleep(1)
+                    print('PLANO\nÉ representada pelas letras do alfabeto grego.\nOBS:Se o plano não tiver suas dimenções definida por um valor escalar entenda que ele seja infinito.')
+                    sleep(2)
+                elif g1 == 2:    
     if n1 == 10:
         break
