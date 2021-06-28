@@ -93,6 +93,15 @@ while True:
                     sleep(1)
                     print('PLANO\nÉ representada pelas letras do alfabeto grego.\nOBS:Se o plano não tiver suas dimenções definida por um valor escalar entenda que ele seja infinito.')
                     sleep(2)
-                elif g1 == 2:    
+                elif g1 == 2:
+                    print('-=-'*20)
+                    print('Calcular Area')   
+                    print('-=-'*20) 
+                    ca1 = int(input('Formas geometricas\nQuadrilátero[1]\nTrianfulo[2]\nEscolha uma das opções:'))
+                    if ca1 == 1:
+                        print('-=-'*20)
+                        print('Quadriláterp')
+                        print('-=-'*20)
+                        ca2 = int(input('Formas de Quadrilátero\n'))
     if n1 == 10:
         break
