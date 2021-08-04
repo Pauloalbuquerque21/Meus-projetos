@@ -23,6 +23,7 @@ while True:
                         n6 = float(input('Número nº {}:'.format(c)))
                         f= f + n6
                     print('O resultado da soma é igual: {:.2f}'.format(f))
+                    sleep(1)
                 elif n4 == 2:
                     print('-=-'*20)
                     numb=int(input('Quantos números vão ser multiplicados:'))
