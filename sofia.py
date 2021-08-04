@@ -32,6 +32,7 @@ while True:
                         n7 = float(input('Número nª{}:'.format(d)))
                         g=g*n7
                     print('O valor da Multiplicação é {:.2f}'.format(g))
+                    sleep(1)
                 elif n4 == 3:
                     print('-=-'*20)
                     n8 = float(input('Informe o Dividendo:'))
@@ -39,6 +40,7 @@ while True:
                     n10 = n8 / n9
                     n11 = n8 % n9
                     print('O resultado da divisão {:.2f} e o resto {:.2f}'.format(n10,n11))
+                    sleep(1)
             elif n3 == 2:
                 print('-=-'*20)
                 print('PROGREÇÃO ARITIMÉTICA')
@@ -57,6 +59,7 @@ while True:
                         n16 = int(input('informe a razão:'))
                         pa1 = 1+((n15-n14)/n16)
                         print('O número de termos e igual {}'.format(pa1))
+                        sleep(1)
                         perg = str(input('Você quer ver todos os termos[S/N]?')).strip().lower()
                         if perg == 's':
                             print('Segue os termos:')
@@ -103,6 +106,6 @@ while True:
                         print('-=-'*20)
                         print('Quadriláterp')
                         print('-=-'*20)
-                        ca2 = int(input('Formas de Quadrilátero\n'))
+                        ca2 = int(input('Formas de Quadrilátero:\nParalelogramo[1]\nQuadrado[2]\nRetangulo[3]\nLosango[4]\nTrapézio osóscelees[5]\nTrapézio retângulo[6]\nTrapézio escaleno[7]'))
     if n1 == 10:
         break
