@@ -108,12 +108,24 @@ while True:
                         print('-=-'*20)
                         ca2 = int(input('Formas de Quadrilátero:\nParalelogramo[1]\nQuadrado[2]\nRetangulo[3]\nLosango[4]\nTrapézio osóscelees[5]\nTrapézio retângulo[6]\nTrapézio escaleno[7]\nEscolha uma das opções:'))
                         if ca2 == 1:
-                            ca21=int(input('Informe o valor da base:'))    
-                            ca22=int(input('informe a altura'))
-                            ca20=ca21*ca22
-                            print('O valor da área do paralelograma com {} de base de {} de altura é igual a {}'.format(ca21,ca22,ca20))
+                            print("PARALELOGRAMO")
                             sleep(1)
-
+                            pa1=int(input('Informe o valor da base:'))    
+                            pa2=int(input('informe a altura'))
+                            pa0=pa1*pa2
+                            print('O valor da área do paralelograma com {} de base de {} de altura é igual a {}'.format(pa1,pa2,pa0))
+                            sleep(1)
+                        elif ca2 == 2: 
+                            print('QUADRADO')  
+                            sleep(1)
+                            qua1=int(input('Informe um dos lados:'))
+                            qua2=qua1*qua1
+                            print('A area do quadrado que tem um dos lados igual a {} é igual a {}'.format(qua1,qua2))
+                            sleep(1)
+                            print("-=-"*10)
     if n1 == 10:
+        print('-=-'*10)
+        print('Foi um prazer te ajudar')
+        print('-=-'*10)
         break
 
