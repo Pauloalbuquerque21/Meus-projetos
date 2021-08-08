@@ -123,6 +123,16 @@ while True:
                             print('A area do quadrado que tem um dos lados igual a {} é igual a {}'.format(qua1,qua2))
                             sleep(1)
                             print("-=-"*10)
+                        elif ca2 == 3:
+                            print('Retangulo')
+                            sleep(1)
+                            re1 = int(input('Informe a base:'))
+                            re2 = int(input('informe a altura:'))
+                            re0 = re1 * re2
+                            print('O a area do retnagulo com base {} e altura {} é igual {}'.format(re1,re2,re0))
+                            sleep(1)
+                            print('-=-'*10)
+                            
     if n1 == 10:
         print('-=-'*10)
         print('Foi um prazer te ajudar')
