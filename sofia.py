@@ -11,6 +11,7 @@ while True:
         n3 = 0
         while  n3 !=1 and n3!=2 and n3!=3:
             n3 = int(input('O escolhido foi Matemática.\nCalculadora[1]\nProgreção Aritimetica[2]\nGeometria Plana[3]\nEscolhe uma das opções:'))
+            print('-=-'*10)
             if n3 == 1:
                 print('-=-'*20)
                 print('CALCULADORA')
