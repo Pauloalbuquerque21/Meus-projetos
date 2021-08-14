@@ -9,14 +9,14 @@ while True:
     if n1 == 1:
         print('=-'*20)
         n3 = 0
-        while  n3 !=1 and n3!=2 and n3!=3:
-            n3 = int(input('O escolhido foi Matemática.\nCalculadora[1]\nProgreção Aritimetica[2]\nGeometria Plana[3]\nEscolhe uma das opções:'))
+        while  True:
+            n3 = int(input('O escolhido foi Matemática.\nCalculadora[1]\nProgreção Aritimetica[2]\nGeometria Plana[3]\nVoltar[10]\nEscolhe uma das opções:'))
             print('-=-'*10)
             if n3 == 1:
                 print('-=-'*20)
                 print('CALCULADORA')
                 print('-=-'*20)
-                n4 = int(input('[1]Soma\n[2]Multiplicação\n[3]divisão\nEscolha umas das opções:'))
+                n4 = int(input('Soma[1]\nMultiplicação[2]\ndivisão[3]\nEscolha umas das opções:'))
                 if n4 == 1:
                     n5 = int(input('quantos números vão ser somados ?'))
                     f = 0
@@ -150,6 +150,8 @@ while True:
                             print('A área do trapézio é {}'.format(tr0))
                             sleep(1)
                             print('-=-'*10)
+            elif n3 ==10:
+                break                
     if n1 == 10:
         print('-=-'*10)
         print('Foi um prazer te ajudar')
