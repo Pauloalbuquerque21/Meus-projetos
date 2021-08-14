@@ -106,7 +106,7 @@ while True:
                         print('-=-'*20)
                         print('Quadrilátero')
                         print('-=-'*20)
-                        ca2 = int(input('Formas de Quadrilátero:\nParalelogramo[1]\nQuadrado[2]\nRetangulo[3]\nLosango[4]\nTrapézio osóscelees[5]\nTrapézio retângulo[6]\nTrapézio escaleno[7]\nEscolha uma das opções:'))
+                        ca2 = int(input('Formas de Quadrilátero:\nParalelogramo[1]\nQuadrado[2]\nRetangulo[3]\nLosango[4]\nTrapézio[5]\nEscolha uma das opções:'))
                         if ca2 == 1:
                             print("PARALELOGRAMO")
                             sleep(1)
@@ -132,7 +132,23 @@ while True:
                             print('O a area do retnagulo com base {} e altura {} é igual {}'.format(re1,re2,re0))
                             sleep(1)
                             print('-=-'*10)
-                            
+                        elif ca2 == 4:
+                            print('Losango')    
+                            sleep(1)
+                            lo1 = int(input('Informe o diametro maior:'))
+                            lo2 = int(input('Informe o diametro menor:'))
+                            lo0 = (lo1*lo2)/2
+                            print('A área do losango com dimetro {} e {} é igual {}'.format(lo1,lo2,lo0)) 
+                        elif ca2 == 5:
+                            print('Trapézio')
+                            sleep(1)                     
+                            tr1 = int(input('Informe a base maior:'))
+                            tr2 = int(input('Informe a base menor:'))
+                            tr3 = int(input('Informe a altura:'))
+                            tr0 = ((tr1+tr2)*tr3)/2
+                            print('A área do trapézio é {}'.format(tr0))
+                            sleep(1)
+                            print('-=-'*10)
     if n1 == 10:
         print('-=-'*10)
         print('Foi um prazer te ajudar')
