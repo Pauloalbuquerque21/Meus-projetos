@@ -156,9 +156,10 @@ while True:
                 print("-=-"*20)
                 tg1 = int(input('Triangulo[1]'))
                 if tg1 == 1:
-                    tgt1 = int(input('Qual informação você precisa saber \n Cateto aposto[1]  Cateto adjacente[2]\nHipotenua[3]  Angulo[4]\nQual dessas informações:'))
+                    tgt1 = int(input('Qual informação você precisa saber \n Cateto aposto[1]  Cateto adjacente[2]\nHipotenusa[3]  Angulo[4]\nQual dessas informações:'))
                     if tgt1 == 1:
-                        tgt2 = int()
+                        tgt2 = int(input('Cateto adjacente?'))
+                        tgt3 = int(input('Hipotenusa?'))
 
             elif n3 ==10:
                 break                
