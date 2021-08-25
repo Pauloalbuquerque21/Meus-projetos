@@ -150,6 +150,16 @@ while True:
                             print('A área do trapézio é {}'.format(tr0))
                             sleep(1)
                             print('-=-'*10)
+            elif n3 == 4:
+                print("-=-"*20)
+                print("Trigonometria")
+                print("-=-"*20)
+                tg1 = int(input('Triangulo[1]'))
+                if tg1 == 1:
+                    tgt1 = int(input('Qual informação você precisa saber \n Cateto aposto[1]  Cateto adjacente[2]\nHipotenua[3]  Angulo[4]\nQual dessas informações:'))
+                    if tgt1 == 1:
+                        tgt2 = int()
+
             elif n3 ==10:
                 break                
     if n1 == 10:
