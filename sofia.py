@@ -21,7 +21,7 @@ while True:
                     n5 = int(input('quantos números vão ser somados ?'))
                     f = 0
                     for c in range(1,n5+1):
-                        n6 = float(input('Número nº {}:'.format(c)))
+                        n6 = float(input(f'Número nº {c}:'))
                         f= f + n6
                     print('O resultado da soma é igual: {:.2f}'.format(f))
                     sleep(1)
@@ -30,7 +30,7 @@ while True:
                     numb=int(input('Quantos números vão ser multiplicados:'))
                     g=1
                     for d in range(1,numb+1):
-                        n7 = float(input('Número nª{}:'.format(d)))
+                        n7 = float(input(f'Número nª{d}:'))
                         g=g*n7
                     print('O valor da Multiplicação é {:.2f}'.format(g))
                     sleep(1)
