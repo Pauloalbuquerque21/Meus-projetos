@@ -10,7 +10,7 @@ while True:
         print('=-'*20)
         n3 = 0
         while  True:
-            n3 = int(input('O escolhido foi Matemática.\nCalculadora[1]\nProgreção Aritimetica[2]\nGeometria Plana[3]\nTrigonometria[4]\nVoltar[10]\nEscolhe uma das opções:'))
+            n3 = int(input('O escolhido foi Matemática.\nCalculadora[1]\nProgreção Aritimetica[2]\nGeometria Plana[3]\nTrigonometria[4]\nLogaritimo[5]\nVoltar[10]\nEscolhe uma das opções:'))
             print('-=-'*10)
             if n3 == 1:
                 print('-=-'*20)
@@ -50,7 +50,7 @@ while True:
                 print('Fomula:\nan=a1+(n-1).r')
                 print('-=-'*20)
                 sleep(2)
-                n12 = str(input('Informações:\nPrimeiro termo (a1) opção[A]\nUltimo termo (an) opção[B]\nRazão (r) opção[C]\nNúmero de termos n opção[D]\nQuais dessas opções você tem.Não coloca espaço entre as opçãos?')).strip().lower()
+                n12 = str(input('Informações:\nPrimeiro termo (a1) opção[A]\nUltimo termo (an) opção[B]\nRazão (r) opção[C]\nNúmero de termos n opção[D]\nQuais dessas opções você tem.Obs:Não coloca espaço entre as opçãos?')).strip().lower()
                 n13 = len(n12)
                 #print('{}'.format(len(n12)))
                 if n13 >= 3:
