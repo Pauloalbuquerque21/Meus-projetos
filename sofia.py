@@ -78,6 +78,16 @@ while True:
                         n21 = int(input('informe o primeiro termo:'))
                         n22 = int(input('Informe o ultimo termo:'))
                         n23 = int(input('Informe o número de termos:'))
+                elif n13 == 2:
+                    print('-=-'*20)
+                    print(f'Desculpa com apenas {n13} opções não posso te ajudar')
+                    print('-=-'*20)
+                    sleep(1)
+                elif n13 ==1:
+                    print('-=-'*20)
+                    print(f'Desculpa com apenas {n13} apção não posso te ajudar')
+                    print('-=-'*20)
+                    sleep(1)
             elif n3 == 3:
                 print('-=-'*20)
                 print('GEOMETRIA PLANA')
@@ -160,7 +170,11 @@ while True:
                     if tgt1 == 1:
                         tgt2 = int(input('Cateto adjacente?'))
                         tgt3 = int(input('Hipotenusa?'))
-
+            elif n3 == 5:
+                print("-=-"*20)
+                print("LOGARITIMO")
+                print("-=-"*20)
+                int(input('Quais das informações a segui'))
             elif n3 ==10:
                 break                
     if n1 == 10:
