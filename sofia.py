@@ -174,7 +174,7 @@ while True:
                 print("-=-"*20)
                 print("LOGARITIMO")
                 print("-=-"*20)
-                int(input('Quais das informações a segui'))
+                int(input('Informações:\nLogaritimano[A]\nLogaritimo[B]\nBase[C]\nQuais dessas opções você tem.Obs:Não coloca espaço entre as opçãos?'))
             elif n3 ==10:
                 break                
     if n1 == 10:
