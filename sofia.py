@@ -174,7 +174,12 @@ while True:
                 print("-=-"*20)
                 print("LOGARITIMO")
                 print("-=-"*20)
-                int(input('Informações:\nLogaritimano[A]\nLogaritimo[B]\nBase[C]\nQuais dessas opções você tem.Obs:Não coloca espaço entre as opçãos?'))
+                log1=str(input('Informações:\nLogaritimano[A]\nLogaritimo[B]\nBase[C]\nQuais dessas opções você tem.Obs:Não coloca espaço entre as opçãos?'))
+                log2 = len(log1)
+                print(log2)
+                if log2 == 1:
+                    print('Com apenas uma informação, não consigo te ajudar')
+                
             elif n3 ==10:
                 break                
     if n1 == 10:
