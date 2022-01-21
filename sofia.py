@@ -174,11 +174,20 @@ while True:
                 print("-=-"*20)
                 print("LOGARITIMO")
                 print("-=-"*20)
-                log1=str(input('Informações:\nLogaritimano[A]\nLogaritimo[B]\nBase[C]\nQuais dessas opções você tem.Obs:Não coloca espaço entre as opçãos?'))
+                log1=str(input('Informações:\nLogaritmando[A]\nLogaritmo[B]\nBase[C]\nQuais dessas opções você tem.Obs:Não coloca espaço entre as opçãos?')).lower().strip()
                 log2 = len(log1)
                 print(log2)
                 if log2 == 1:
                     print('Com apenas uma informação, não consigo te ajudar')
+                elif log2 == 3:
+                    print('Se você tem todas as informações, por que está me perguntando?')
+                elif log2 == 2:
+                    if log1 == "ab":
+                        log3=int(input('Qual o Logaritmando?'))
+                        log4=int(input('Qual o Logaritimo?'))
+                        
+                    elif log1 == "ac":
+                    elif log1 == "bc":
                 
             elif n3 ==10:
                 break                
