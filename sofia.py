@@ -176,7 +176,7 @@ while True:
                 print("-=-"*20)
                 log1=str(input('Informações:\nLogaritmando[A]\nLogaritmo[B]\nBase[C]\nQuais dessas opções você tem.Obs:Não coloca espaço entre as opçãos?')).lower().strip()
                 log2 = len(log1)
-                print(log2)
+                #print(log2)
                 if log2 == 1:
                     print('Com apenas uma informação, não consigo te ajudar')
                 elif log2 == 3:
@@ -185,9 +185,12 @@ while True:
                     if log1 == "ab":
                         log3=int(input('Qual o Logaritmando?'))
                         log4=int(input('Qual o Logaritimo?'))
-                        
+                        log5 = log3**(1/log4)
+                        print(f'A base é igual {log5}')
+                        sleep(1)                       
                     elif log1 == "ac":
-                    elif log1 == "bc":
+                        for c in range(3,81)
+                    #elif log1 == "bc":
                 
             elif n3 ==10:
                 break                
