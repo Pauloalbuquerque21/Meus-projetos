@@ -78,6 +78,16 @@ while True:
                         n21 = int(input('informe o primeiro termo:'))
                         n22 = int(input('Informe o ultimo termo:'))
                         n23 = int(input('Informe o número de termos:'))
+                elif n13 == 2:
+                    print('-=-'*20)
+                    print(f'Desculpa com apenas {n13} opções não posso te ajudar')
+                    print('-=-'*20)
+                    sleep(1)
+                elif n13 ==1:
+                    print('-=-'*20)
+                    print(f'Desculpa com apenas {n13} apção não posso te ajudar')
+                    print('-=-'*20)
+                    sleep(1)
             elif n3 == 3:
                 print('-=-'*20)
                 print('GEOMETRIA PLANA')
@@ -160,7 +170,28 @@ while True:
                     if tgt1 == 1:
                         tgt2 = int(input('Cateto adjacente?'))
                         tgt3 = int(input('Hipotenusa?'))
-
+            elif n3 == 5:
+                print("-=-"*20)
+                print("LOGARITIMO")
+                print("-=-"*20)
+                log1=str(input('Informações:\nLogaritmando[A]\nLogaritmo[B]\nBase[C]\nQuais dessas opções você tem.Obs:Não coloca espaço entre as opçãos?')).lower().strip()
+                log2 = len(log1)
+                #print(log2)
+                if log2 == 1:
+                    print('Com apenas uma informação, não consigo te ajudar')
+                elif log2 == 3:
+                    print('Se você tem todas as informações, por que está me perguntando?')
+                elif log2 == 2:
+                    if log1 == "ab":
+                        log3=int(input('Qual o Logaritmando?'))
+                        log4=int(input('Qual o Logaritimo?'))
+                        log5 = log3**(1/log4)
+                        print(f'A base é igual {log5}')
+                        sleep(1)                       
+                    elif log1 == "ac":
+                        for c in range(3,81)
+                    #elif log1 == "bc":
+                
             elif n3 ==10:
                 break                
     if n1 == 10:
