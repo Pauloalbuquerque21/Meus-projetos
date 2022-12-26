@@ -1,0 +1,14 @@
+ul{
+    position:absolute;
+    top: 50px;
+    right: 100px;
+
+}
+li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+a{
+    text-decoration: none;
+    
+}
