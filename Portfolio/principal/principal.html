@@ -8,12 +8,24 @@
     <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
-    <header>
-        <ul>
-            <li><a href="sobremim/sobremim.html">Sobre mim</a></li>
-            <li><a href="">Projetos</a></li>
-            <li><a href="">Habilidades</a></li>
-        </ul>
+    <header>  
+        <nav>
+            <ul>
+                <li><a href="sobremim/sobremim.html" id="sobre" onclick="clicar()" onmouseenter="entrar()"  onmouseout="saiu()">Sobre mim</a></li>
+                <li><a href="">Projetos</a></li>
+                <li><a href="">Habilidades</a></li>
+            </ul>
+        </nav>
     </header>
+    <script>
+        var a = window.document.getElementByid('sobre')
+        function clicar(){
+            a.style.color="red"
+        }
+
+        function entrar(){
+            a.style.color="blue"
+        }
+    </script>
 </body>
 </html>
