@@ -8,7 +8,13 @@ li{
     display: inline;
     margin: 0 0 0 15px;
 }
-a{
+div{
+    width:100px;
+    background:red;
+    display:inline-blcok;
+
+}
+/*a{
     text-decoration: none;
     
 }

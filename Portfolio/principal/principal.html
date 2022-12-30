@@ -11,21 +11,24 @@
     <header>  
         <nav>
             <ul>
-                <li><a href="sobremim/sobremim.html" id="sobre" onclick="clicar()" onmouseenter="entrar()"  onmouseout="saiu()">Sobre mim</a></li>
+                <li id="sobre" onclick="clicar()"><a href="sobremim/sobremim.html">Sobre mim</a></li>
                 <li><a href="">Projetos</a></li>
                 <li><a href="">Habilidades</a></li>
             </ul>
         </nav>
     </header>
-    <script>
-        var a = window.document.getElementByid('sobre')
-        function clicar(){
-            a.style.color="red"
-        }
-
-        function entrar(){
-            a.style.color="blue"
-        }
-    </script>
+        <div id="agua" onclick="clicar2()">
+            <p>escola</p> 
+        </div>
+        <script>
+            function clicar(){
+                var a = window.document.getElementByid('sobre')
+                a.style.color="yellow"
+            } 
+            function clicar2(){
+                var a = window.document.getElementByid('agua')
+                a.style.background="yellow"
+            }
+        </script>
 </body>
 </html>
