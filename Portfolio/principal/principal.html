@@ -1,30 +1,32 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Portfolio</title>
     <link rel="stylesheet" href="estilo.css">
+
 </head>
 <body>
     <header>  
         <nav>
             <ul>
-                <li id="sobre" onclick="clicar()"><a href="sobremim/sobremim.html">Sobre mim</a></li>
+                <li id="menu" onmouseenter="entrar()" onmouseout="sair()"><a href="sobremim/sobremim.html">Sobre mim</a></li>
                 <li><a href="">Projetos</a></li>
                 <li><a href="">Habilidades</a></li>
             </ul>
         </nav>
     </header>
-        <div id='agua' onclick="clicar2()">
-            escola ...
-        </div>
     <script>
-        function clicar2() {
-            var a = window.document.getElementByid('agua')
-            a.style.background = 'yellow'
+        var a = window.document.getElementById('menu')
+        function entrar(){ 
+            a.style.color = 'purple'
         }
+        function sair(){
+            a.style.color='red'
+        }
+
     </script>
 </body>
 </html>
