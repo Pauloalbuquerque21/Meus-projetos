@@ -1,16 +1,18 @@
 body{
-    background: ;
+    background:#0AC6FF ;
 }
 div{
     width:940px;
+    height:100%;
     margin: 0 auto;
+    background: #ffffff;
 }
 img{
     width:300px;
 }
 ul{
     position:absolute;
-    top: 50px;
+    top: 90px;
     right: 100px;
 
 }
