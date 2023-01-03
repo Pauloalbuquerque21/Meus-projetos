@@ -12,21 +12,51 @@
     <header>  
         <nav>
             <ul>
-                <li id="menu" onmouseenter="entrar()" onmouseout="sair()"><a href="sobremim/sobremim.html">Sobre mim</a></li>
-                <li><a href="">Projetos</a></li>
-                <li><a href="">Habilidades</a></li>
+                <li><a id="sobremim" href="sobremim/sobremim.html">Sobre mim</a></li>
+                <li><a id="projetos"  href="">Projetos</a></li>
+                <li><a id="habilidades" href="">Habilidades</a></li>
             </ul>
         </nav>
     </header>
     <script>
-        var a = window.document.getElementById('menu')
+        var a = window.document.getElementById('sobremim')
+        a.addEventListener('mouseout',sair)
+        a.addEventListener('mouseenter',entrar)
+        a.addEventListener('click',clicar)
+
+        var b = window.document.getElementById('projetos')
+        b.addEventListener('mouseout',sair1)
+        b.addEventListener('mouseenter',entrar1)
+        var c = window.document.getElementById('habilidades')
+        c.addEventListener('mouseout',sair2)
+        c.addEventListener('mouseenter',entrar2)
         function entrar(){ 
             a.style.color = 'purple'
         }
         function sair(){
+            a.style.color='blue'
+        }
+        function clicar(){
             a.style.color='red'
         }
-
+        function entrar1(){ 
+            b.style.color = 'purple'
+        }
+        function sair1(){
+            b.style.color='blue'
+        }
+        function clicar1(){
+            b.style.color='red'
+        }
+        function entrar2(){ 
+            c.style.color = 'purple'
+        }
+        function sair2(){
+            c.style.color='blue'
+        }
+        function clicar2(){
+            c.style.color='red'
+        }
     </script>
 </body>
 </html>
