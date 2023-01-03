@@ -1,3 +1,13 @@
+body{
+    background: ;
+}
+div{
+    width:940px;
+    margin: 0 auto;
+}
+img{
+    width:300px;
+}
 ul{
     position:absolute;
     top: 50px;
@@ -12,4 +22,5 @@ li{
 a{
     color:blue;
     text-decoration:none;
+    font-size:25px;
 }
