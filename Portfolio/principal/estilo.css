@@ -3,16 +3,18 @@ body{
 }
 div{
     width:940px;
-    height:100%;
-    margin: 0 auto;
+    height: 500px;
+    margin: 40px 40px auto;
     background: #ffffff;
 }
 img{
+    position: relative;
+    top: 20px;
     width:300px;
 }
 ul{
     position:absolute;
-    top: 90px;
+    top: 150px;
     right: 100px;
 
 }
@@ -24,5 +26,5 @@ li{
 a{
     color:blue;
     text-decoration:none;
-    font-size:25px;
+    font-size:30px;
 }
