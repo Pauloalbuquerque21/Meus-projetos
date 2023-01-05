@@ -14,8 +14,8 @@ img{
 }
 ul{
     position:relative;
-    left: 470px;
     bottom: 130px;
+    margin-left: 480px;
 
 }
 li{
