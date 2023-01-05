@@ -2,20 +2,20 @@ body{
     background:#0AC6FF ;
 }
 div{
-    width:940px;
-    height: 500px;
-    margin: 40px 40px auto;
+    width:95%;
+    height: 80%;
+    margin: 40px auto;
     background: #ffffff;
 }
 img{
     position: relative;
-    top: 20px;
+    top:10px;
     width:300px;
 }
 ul{
-    position:absolute;
-    top: 150px;
-    right: 100px;
+    position:relative;
+    left: 470px;
+    bottom: 130px;
 
 }
 li{
