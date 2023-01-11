@@ -1,10 +1,11 @@
 hearder{
     background-color:#005555 ;
 }
-#perfil{
+.perfil{
+    display:inline-block;
     width: 20%;
-   
 }
+
 h1 {
     text-align: left;
     vertical-align: top;
