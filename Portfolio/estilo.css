@@ -1,21 +1,16 @@
 body{
    background:#1C21EB;
 }
-.fundobranco{
-    width: 95%;
-    margin: 40px auto;
-    background: #ffffff;
-}
 .cabeçalhoimagem{
     position: relative;
-    top:10px;
+    top:50px;
     width:300px;
 }
 .navegação{
     position:relative;
-    bottom: 130px;
-    margin-left: 480px;
-
+    bottom:70px;
+    margin-left:50%;
+    color:#ffffff;
 }
 li{
     display: inline;
@@ -23,7 +18,7 @@ li{
 }
 
 a{
-    color:blue;
+    color:#ffffff;
     text-decoration:none;
-    font-size:30px;
+    font-size:150%;
 }
