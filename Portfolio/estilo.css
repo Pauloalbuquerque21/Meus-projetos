@@ -1,13 +1,12 @@
 body{
-    background:#1C21EB ;
+   background:#1C21EB;
 }
-div{
-    width:95%;
-    height: 80%;
+.fundobranco{
+    width: 95%;
     margin: 40px auto;
     background: #ffffff;
 }
-.cabeçalho{
+.cabeçalhoimagem{
     position: relative;
     top:10px;
     width:300px;
