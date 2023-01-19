@@ -17,8 +17,13 @@ li{
     margin: 0 0 0 15px;
 }
 
-a{
+.link{
     color:#ffffff;
     text-decoration:none;
     font-size:150%;
+    transition:1s;
+}
+.link:hover{
+    color:#D4AE0F;
+    font-size: 170%;
 }
