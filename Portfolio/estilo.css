@@ -5,6 +5,7 @@ body{
     position:relative;
     top:50px;
     width:300px;
+
 }
 .navegação{
     position:relative;
@@ -27,7 +28,10 @@ li{
     color:#D4AE0F;
     font-size: 160%;
 }
-.imagemperfil{
+.imagemperfil-sembremim{
     position: relative;
-    width: 20%;
+    top:50px;
+    left:30px;
+    height: 197px;
+    border:50px;
 }
