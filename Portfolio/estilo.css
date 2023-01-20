@@ -2,14 +2,14 @@ body{
    background:#1C21EB;
 }
 .cabeçalhoimagem{
-    position: relative;
+    position:relative;
     top:50px;
     width:300px;
 }
 .navegação{
     position:relative;
     bottom:70px;
-    margin-left:50%;
+    margin-left:40%;
     color:#ffffff;
 }
 li{
@@ -25,5 +25,9 @@ li{
 }
 .link:hover{
     color:#D4AE0F;
-    font-size: 170%;
+    font-size: 160%;
+}
+.imagemperfil{
+    position: relative;
+    width: 20%;
 }

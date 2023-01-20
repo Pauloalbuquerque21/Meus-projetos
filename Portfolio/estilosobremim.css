@@ -1,14 +1,5 @@
-hearder{
-    background-color:#005555 ;
-}
-.perfil{
-    display:inline-block;
+.imagemperfil{
+    position: relative;
     width: 20%;
-}
-
-h1 {
-    text-align: left;
-    vertical-align: top;
-
 }
 
