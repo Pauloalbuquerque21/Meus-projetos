@@ -8,9 +8,9 @@ body{
 
 }
 .navegação{
-    position:relative;
-    bottom:70px;
-    margin-left:40%;
+    position: relative;
+    top:100px;
+    left: 50%;
     color:#ffffff;
 }
 li{
