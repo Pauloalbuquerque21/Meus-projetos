@@ -32,6 +32,12 @@ li{
     margin:0 auto;
     padding-top:200px;
 }
-.empresa{
-    border: 5px solid black;
+.empresa li{
+    display:block;
+    box-sizing:border-box;
+    border: solid 5px black;
+    margin:10px 0px;
+}
+.atribuição li{
+    border:none;
 }
