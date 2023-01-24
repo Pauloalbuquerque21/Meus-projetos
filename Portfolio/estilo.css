@@ -35,9 +35,10 @@ li{
 .empresa li{
     display:block;
     box-sizing:border-box;
-    border: solid 5px #D4AE0F;
+    border:solid 5px #D4AE0F;
     margin:10px 0px;
     padding: 5px;
+    border-radius:10px;
 }
 .atribuição li{
     border:none;
