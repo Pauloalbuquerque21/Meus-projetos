@@ -12,7 +12,7 @@ body{
     right: 60px;
     color:#ffffff;
 }
-li{
+.opções{
     display: inline;
     margin: 0 0 0 15px;
 }
@@ -63,7 +63,7 @@ li{
 .atribuição li{
     border:none;
     padding: 0;
-    margin: 0;
+    margin: 0 0 0 15px;
 }
 .empresa:hover li{
     border:solid 5px#fff;
