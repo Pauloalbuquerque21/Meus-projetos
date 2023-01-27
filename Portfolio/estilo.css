@@ -22,6 +22,8 @@ li{
     text-decoration:none;
     font-size:150%;
     transition:1s;
+    display: inline;
+    margin: 0 0 0 15px;
 }
 .link:hover{
     color:#D4AE0F;
