@@ -187,10 +187,7 @@ while True:
                         log4=int(input('Qual o Logaritimo?'))
                         log5 = log3**(1/log4)
                         print(f'A base é igual {log5}')
-                        sleep(1)                       
-                    elif log1 == "ac":
-                        for c in range(3,81):
-                    #elif log1 == "bc":
+                        sleep(1)
                 
             elif n3 == 10:
                 break              
