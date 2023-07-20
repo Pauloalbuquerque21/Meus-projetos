@@ -189,11 +189,11 @@ while True:
                         print(f'A base é igual {log5}')
                         sleep(1)                       
                     elif log1 == "ac":
-                        for c in range(3,81)
+                        for c in range(3,81):
                     #elif log1 == "bc":
                 
-            elif n3 ==10:
-                break                
+            elif n3 == 10:
+                break              
     if n1 == 10:
         print('-=-'*10)
         print('Foi um prazer te ajudar')
