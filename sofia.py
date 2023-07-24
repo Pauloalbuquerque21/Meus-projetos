@@ -188,6 +188,7 @@ while True:
                         log5 = log3**(1/log4)
                         print(f'A base é igual {log5}')
                         sleep(1)
+                    print('test')
                 
             elif n3 == 10:
                 break              
