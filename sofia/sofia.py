@@ -1,4 +1,5 @@
 from time import sleep
+from matematica import basico 
 print('Ola amigo, meu nome é Sofia!!!!')
 sleep(1)
 n1 = 0
@@ -16,25 +17,17 @@ while True:
                 print('-=-'*20)
                 print('CALCULADORA')
                 print('-=-'*20)
-                n4 = int(input('Soma[1]\nMultiplicação[2]\ndivisão[3]\nEscolha umas das opções:'))
-                if n4 == 1:
-                    n5 = int(input('quantos números vão ser somados ?'))
-                    f = 0
-                    for c in range(1,n5+1):
-                        n6 = float(input(f'Número nº {c}:'))
-                        f= f + n6
-                    print('O resultado da soma é igual: {:.2f}'.format(f))
-                    sleep(1)
-                elif n4 == 2:
+                cal_sofia = int(input('Soma[1]\nMultiplicação[2]\ndivisão[3]\nEscolha umas das opções:'))
+                if cal_sofia == 1:
+                    cal_soma = int(input('quantos números vão ser somados ?'))
+                    soma_numb = basico.quantity(cal_soma)
+                    basico.soma(soma_numb)
+                elif cal_sofia == 2:
                     print('-=-'*20)
                     numb=int(input('Quantos números vão ser multiplicados:'))
-                    g=1
-                    for d in range(1,numb+1):
-                        n7 = float(input(f'Número nª{d}:'))
-                        g=g*n7
-                    print('O valor da Multiplicação é {:.2f}'.format(g))
-                    sleep(1)
-                elif n4 == 3:
+                    num_mult = basico.quantity(numb)
+                    basico.multiplique (num_mult)
+                elif cal_sofia == 3:
                     print('-=-'*20)
                     n8 = float(input('Informe o Dividendo:'))
                     n9 = float(input('Informe o divisor:'))
