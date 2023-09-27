@@ -9,33 +9,31 @@ while True:
     sleep(1)
     if n1 == 1:
         print('=-'*20)
-        n3 = 0
         while  True:
-            n3 = int(input('O escolhido foi Matemática.\nCalculadora[1]\nProgreção Aritimetica[2]\nGeometria Plana[3]\nTrigonometria[4]\nLogaritimo[5]\nVoltar[10]\nEscolhe uma das opções:'))
+            options = int(input('O escolhido foi Matemática.\nCalculadora[1]\nProgreção Aritimetica[2]\nGeometria Plana[3]\nTrigonometria[4]\nLogaritimo[5]\nVoltar[10]\nEscolhe uma das opções:'))
             print('-=-'*10)
-            if n3 == 1:
+            if options == 1:
                 print('-=-'*20)
                 print('CALCULADORA')
                 print('-=-'*20)
-                cal_sofia = int(input('Soma[1]\nMultiplicação[2]\ndivisão[3]\nEscolha umas das opções:'))
-                if cal_sofia == 1:
+                calculadora = int(input('Soma[1]\nMultiplicação[2]\ndivisão[3]\nEscolha umas das opções:'))
+                if calculadora == 1:
                     cal_soma = int(input('quantos números vão ser somados ?'))
                     soma_numb = basico.quantity(cal_soma)
                     basico.soma(soma_numb)
-                elif cal_sofia == 2:
+                elif calculadora == 2:
                     print('-=-'*20)
                     numb=int(input('Quantos números vão ser multiplicados:'))
                     num_mult = basico.quantity(numb)
                     basico.multiplique (num_mult)
-                elif cal_sofia == 3:
+                elif calculadora == 3:
                     print('-=-'*20)
-                    n8 = float(input('Informe o Dividendo:'))
-                    n9 = float(input('Informe o divisor:'))
-                    n10 = n8 / n9
-                    n11 = n8 % n9
-                    print('O resultado da divisão {:.2f} e o resto {:.2f}'.format(n10,n11))
+                    dividendo = float(input('Informe o Dividendo:'))
+                    divisor = float(input('Informe o divisor:'))
+                    resultado_division = basico.division(dividendo,divisor)
+                    print(f'O resultado da divisão {resultado_division[0]:.2f} e o resto {resultado_division[1]}')
                     sleep(1)
-            elif n3 == 2:
+            elif options == 2:
                 print('-=-'*20)
                 print('PROGREÇÃO ARITIMÉTICA')
                 print('-=-'*20)
@@ -43,11 +41,11 @@ while True:
                 print('Fomula:\nan=a1+(n-1).r')
                 print('-=-'*20)
                 sleep(2)
-                n12 = str(input('Informações:\nPrimeiro termo (a1) opção[A]\nUltimo termo (an) opção[B]\nRazão (r) opção[C]\nNúmero de termos n opção[D]\nQuais dessas opções você tem.Obs:Não coloca espaço entre as opçãos?')).strip().lower()
-                n13 = len(n12)
+                information = str(input('Informações:\nPrimeiro termo (a1) opção[A]\nUltimo termo (an) opção[B]\nRazão (r) opção[C]\nNúmero de termos n opção[D]\nQuais dessas opções você tem.Obs:Não coloca espaço entre as opçãos?')).strip().lower()
+                information_size = len(information)
                 #print('{}'.format(len(n12)))
-                if n13 >= 3:
-                    if  n12 in 'abc' or 'acb' or 'bac' or 'bca' or 'cab' or 'cba':
+                if information_size >= 3:
+                    if  information in 'abc' or 'acb' or 'bac' or 'bca' or 'cab' or 'cba':
                         n14 = int(input('Informe o Primeiro termo:'))
                         n15 = int(input('Informe o ultimo termo: '))
                         n16 = int(input('informe a razão:'))
@@ -59,29 +57,29 @@ while True:
                             print('Segue os termos:')
                             for c in range(n14,n15,n16):
                                 print('{}'.format(c),end=' ')
-                    elif n12 in 'bcd' or 'bdc' or 'cbd' or 'cdb' or 'dcb' or 'dbc':
+                    elif information in 'bcd' or 'bdc' or 'cbd' or 'cdb' or 'dcb' or 'dbc':
                         n15 = int(input('Informe o Ultimo termo:'))
                         n16 = int(input('Informe a razão:'))
                         n17 = int(input('Informe o número de termos:'))
-                    elif n12 in 'acd' or 'adc' or 'dac' or 'dca' or 'cad' or 'cda':
+                    elif information in 'acd' or 'adc' or 'dac' or 'dca' or 'cad' or 'cda':
                         n18 = int(input('Informe o primeiro termo:'))
                         n19 = int(input('Informe a razão:'))
                         n20 = int(input('Informe o Número de termos:'))
-                    elif n12 in 'abd' or 'adb' or 'dab' or 'dba' or 'bad' or 'bda':
+                    elif information in 'abd' or 'adb' or 'dab' or 'dba' or 'bad' or 'bda':
                         n21 = int(input('informe o primeiro termo:'))
                         n22 = int(input('Informe o ultimo termo:'))
                         n23 = int(input('Informe o número de termos:'))
-                elif n13 == 2:
+                elif information_size == 2:
                     print('-=-'*20)
-                    print(f'Desculpa com apenas {n13} opções não posso te ajudar')
-                    print('-=-'*20)
-                    sleep(1)
-                elif n13 ==1:
-                    print('-=-'*20)
-                    print(f'Desculpa com apenas {n13} apção não posso te ajudar')
+                    print(f'Desculpa com apenas {information_size} opções não posso te ajudar')
                     print('-=-'*20)
                     sleep(1)
-            elif n3 == 3:
+                elif information_size ==1:
+                    print('-=-'*20)
+                    print(f'Desculpa com apenas {information_size} apção não posso te ajudar')
+                    print('-=-'*20)
+                    sleep(1)
+            elif options == 3:
                 print('-=-'*20)
                 print('GEOMETRIA PLANA')
                 print('-=-'*20)
@@ -153,7 +151,7 @@ while True:
                             print('A área do trapézio é {}'.format(tr0))
                             sleep(1)
                             print('-=-'*10)
-            elif n3 == 4:
+            elif options == 4:
                 print("-=-"*20)
                 print("Trigonometria")
                 print("-=-"*20)
@@ -163,7 +161,7 @@ while True:
                     if tgt1 == 1:
                         tgt2 = int(input('Cateto adjacente?'))
                         tgt3 = int(input('Hipotenusa?'))
-            elif n3 == 5:
+            elif options == 5:
                 print("-=-"*20)
                 print("LOGARITIMO")
                 print("-=-"*20)
@@ -183,7 +181,7 @@ while True:
                         sleep(1)
                     print('test')
                 
-            elif n3 == 10:
+            elif options == 10:
                 break              
     if n1 == 10:
         print('-=-'*10)

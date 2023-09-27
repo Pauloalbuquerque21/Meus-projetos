@@ -22,8 +22,8 @@ def quantity(dadoquant):
     for c in range(0,dadoquant):
         listquant.append(float(input(f'Digiti o {c+1} da operação:')))
     return listquant
-def divi(dadodivid,dadodivis):
-     resul_divid = resul_divis = 0
-     resul_divid = dadodivid / dadodivis
-     resul_divis = dadodivid % dadodivis
-     return resul_divid,resul_divis
+
+def division(dadodivid,dadodivis):
+     resultado_division = dadodivid / dadodivis
+     resultado_modulo = dadodivid % dadodivis
+     return resultado_division,resultado_modulo
