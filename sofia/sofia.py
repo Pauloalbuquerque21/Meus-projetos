@@ -83,7 +83,7 @@ while True:
                 print('-=-'*20)
                 print('GEOMETRIA PLANA')
                 print('-=-'*20)
-                g1 = int(input('Aprender conceitos básicos[1]\nCalcular Área[2]\nEscolha uma das opções:'))
+                geometria_plana = int(input('Aprender conceitos básicos[1]\nCalcular Área[2]\nEscolha uma das opções:'))
                 if g1 == 1:
                     print('-=-'*20)
                     print('Ponto,Retas, planos, semirreta,semento de reta  e plano[1]')
@@ -112,7 +112,7 @@ while True:
                         if ca2 == 1:
                             print("PARALELOGRAMO")
                             sleep(1)
-                            pa1=int(input('Informe o valor da base:'))    
+                            pa1=float(input('Informe o valor da base:'))    
                             pa2=int(input('informe a altura'))
                             pa0=pa1*pa2
                             print('O valor da área do paralelograma com {} de base de {} de altura é igual a {}'.format(pa1,pa2,pa0))
