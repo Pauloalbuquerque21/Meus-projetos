@@ -1,4 +1,5 @@
-from matematica import basico
+list_paralelograma = list()
+list_parelolograma = float(input('Informe o valor da base:'))  
+list_parelolograma = float(input('informe a altura'))
 
-x2 = basico.division(4,2)
-print(f'{x2[0]:.2f}, {x2[1]}')
+print(list_paralelograma)

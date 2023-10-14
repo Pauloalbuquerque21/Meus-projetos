@@ -84,7 +84,7 @@ while True:
                 print('GEOMETRIA PLANA')
                 print('-=-'*20)
                 geometria_plana = int(input('Aprender conceitos básicos[1]\nCalcular Área[2]\nEscolha uma das opções:'))
-                if g1 == 1:
+                if geometria_plana == 1:
                     print('-=-'*20)
                     print('Ponto,Retas, planos, semirreta,semento de reta  e plano[1]')
                     print('-=-'*20)
@@ -99,25 +99,26 @@ while True:
                     sleep(1)
                     print('PLANO\nÉ representada pelas letras do alfabeto grego.\nOBS:Se o plano não tiver suas dimenções definida por um valor escalar entenda que ele seja infinito.')
                     sleep(2)
-                elif g1 == 2:
+                elif geometria_plana == 2:
                     print('-=-'*20)
                     print('Calcular Area')   
                     print('-=-'*20) 
-                    ca1 = int(input('Formas geometricas\nQuadrilátero[1]\nTrianfulo[2]\nEscolha uma das opções:'))
-                    if ca1 == 1:
+                    calcular_area = int(input('Formas geometricas\nQuadrilátero[1]\nTrianfulo[2]\nEscolha uma das opções:'))
+                    if calcular_area == 1:
                         print('-=-'*20)
                         print('Quadrilátero')
                         print('-=-'*20)
-                        ca2 = int(input('Formas de Quadrilátero:\nParalelogramo[1]\nQuadrado[2]\nRetangulo[3]\nLosango[4]\nTrapézio[5]\nEscolha uma das opções:'))
-                        if ca2 == 1:
+                        quadrilateros = int(input('Formas de Quadrilátero:\nParalelogramo[1]\nQuadrado[2]\nRetangulo[3]\nLosango[4]\nTrapézio[5]\nEscolha uma das opções:'))
+                        if quadrilateros == 1:
+                            list_paralelograma = list()
                             print("PARALELOGRAMO")
                             sleep(1)
-                            pa1=float(input('Informe o valor da base:'))    
-                            pa2=int(input('informe a altura'))
+                            list_parelolograma.append(float(input('Informe o valor da base:')))  
+                            list_parelolograma.append(float(input('informe a altura')))
                             pa0=pa1*pa2
                             print('O valor da área do paralelograma com {} de base de {} de altura é igual a {}'.format(pa1,pa2,pa0))
                             sleep(1)
-                        elif ca2 == 2: 
+                        elif quadrilateros == 2: 
                             print('QUADRADO')  
                             sleep(1)
                             qua1=int(input('Informe um dos lados:'))
@@ -125,7 +126,7 @@ while True:
                             print('A area do quadrado que tem um dos lados igual a {} é igual a {}'.format(qua1,qua2))
                             sleep(1)
                             print("-=-"*10)
-                        elif ca2 == 3:
+                        elif quadrilateros == 3:
                             print('Retangulo')
                             sleep(1)
                             re1 = int(input('Informe a base:'))
@@ -134,14 +135,14 @@ while True:
                             print('O a area do retnagulo com base {} e altura {} é igual {}'.format(re1,re2,re0))
                             sleep(1)
                             print('-=-'*10)
-                        elif ca2 == 4:
+                        elif quadrilateros == 4:
                             print('Losango')    
                             sleep(1)
                             lo1 = int(input('Informe o diametro maior:'))
                             lo2 = int(input('Informe o diametro menor:'))
                             lo0 = (lo1*lo2)/2
                             print('A área do losango com dimetro {} e {} é igual {}'.format(lo1,lo2,lo0)) 
-                        elif ca2 == 5:
+                        elif quadrilateros == 5:
                             print('Trapézio')
                             sleep(1)                     
                             tr1 = int(input('Informe a base maior:'))
