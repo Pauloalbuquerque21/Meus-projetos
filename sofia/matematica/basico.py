@@ -17,10 +17,12 @@ def multiplique(dadomult):
     sleep(2)
     print('-=-'*20)
 
-def quantity(dadoquant):
+def quantity(dadoquant,dados_adicionais = 0):
     listquant = list()
-    for c in range(0,dadoquant):
-        listquant.append(float(input(f'Digiti o {c+1} da operação:')))
+    if ==0:
+        for c in range(0,dadoquant):
+            listquant.append(float(input(f'Digiti o {c+1} da operação:')))
+    else:
     return listquant
 
 def division(dadodivid,dadodivis):
