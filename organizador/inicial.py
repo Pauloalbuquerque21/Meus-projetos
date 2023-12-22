@@ -11,13 +11,22 @@ def transform(dados):
                 os.rename(f'{c}',f'{inf}.jpg')
             elif 'jpeg' in c:
                 os.rename(f'{c}',f'{inf}.jpeg')
+
+historico = ['/home/paulo']
 while True:
-    caminho = input('Digite o caminho:').strip()
-    os.chdir(caminho)
-    dados_arquivo = os.listdir() 
-    print(dados_arquivo)
-    resultado = input('Deseja organizar arquivo:[y/n]:').lower()
-    if resultado == 'y':
-        transform(dados_arquivo)
-    else:
-        break
+    os.chdir(historico[0])
+    print(os.listdir())
+    break
+
+    
+
+#while True:
+#    caminho = input('Digite o caminho:').strip()
+#    os.chdir(caminho)
+#    dados_arquivo = os.listdir() 
+#    print(dados_arquivo)
+#    resultado = input('Deseja organizar arquivo:[y/n]:').lower()
+#    if resultado == 'y':
+#        transform(dados_arquivo)
+#    else:
+#        break
