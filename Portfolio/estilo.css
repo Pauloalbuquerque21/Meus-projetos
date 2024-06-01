@@ -20,7 +20,7 @@ li{
 .link{
     color:#ffffff;
     text-decoration:none;
-    font-size:150%;
+    font-size:200%;
     transition:1s;
 }
 .link:hover{
@@ -31,4 +31,5 @@ li{
     width:940px;
     margin:0 auto;
     padding-top:200px;
+    font-size:16xp;
 }
